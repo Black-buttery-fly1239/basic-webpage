@@ -1,0 +1,147 @@
+/* Intro Section */
+
+.img1{
+    float: right;
+    padding: 2em;
+    width: 100px;
+    height: 100px;
+
+}
+.img2{
+    float: left;
+    padding: 2em;
+    width: 100px;
+    height: 100px;
+}
+.img3{
+    float: right;
+    padding: 2em;
+    width: 100px;
+    height: 100px;
+}
+body {
+    font-family: arial ;
+    background-color: rgb(161, 144, 144) ;
+};
+
+
+.header {
+    /* background-color: darkgray; */
+    padding: 1em;
+}
+.header h1 {
+    float: left;
+    padding: 1em;
+ }
+
+/* Which city */
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+  }
+
+.myCity {
+    padding: 1em;
+    overflow: auto;
+}
+
+/* foreign language */
+table, th, td {
+    border: 3px solid blanchedalmond;
+}
+td {
+    text-align: center;
+}
+/* .content h1 {
+    text-align: center;
+} */
+/* historical places */
+/* .heading {
+    text-align: center;
+ }  */
+.col {
+    float:left;
+    width: 100%;
+    padding: 5px;
+} 
+.col2 {
+    float: right;
+    width: 100%;
+    padding: 5px;
+}
+.col3 {
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+.clearfix ::after {
+    content: "";
+    clear: both;
+    display:table
+}
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  @media(min-width: 800px){
+    .bridge {
+        float: left;
+        width: 25%;
+        padding-left: 100px;
+    }
+    
+}
+
+@media(min-width: 800px){
+.col {
+    float: left;
+    width: 30%;
+}
+.col2 {
+    float: left;
+    width: 30%;
+}
+.col3 {
+    float: left;
+    width: 30%;
+}
+.img1 {
+    float:right;
+    width: 150px;
+    height: 200px;
+}
+.img2 {
+    float: right;
+    width: 150px;
+    height: 200px; 
+}
+.img3 {
+    float: right;
+    width: 150px;
+    height: 200px; 
+}
+.col {
+    font-size: 12px;
+}
+.col2 {
+    font-size: 12px;
+}
+.col3 {
+    font-size: 12px;
+}
+.col2 h3 {
+    text-align: center;
+}
+.col3 h3 {
+    text-align: center;
+}
+.col h3{
+    text-align: center;
+}
+}
+
+/* footer */
