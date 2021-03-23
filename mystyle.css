@@ -58,6 +58,7 @@ body {
 /* foreign language */
 table, th, td {
     border: 3px solid blanchedalmond;
+    border-collapse: collapse;
 }
 td {
     text-align: center;
